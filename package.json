@@ -1,0 +1,46 @@
+{
+    "author": "Gabriele Cossu",
+    "dependencies": {
+        "pebble-clay": "^1.0.3"
+    },
+    "keywords": [
+        "pebble-app"
+    ],
+    "name": "circle-watch",
+    "pebble": {
+        "capabilities": [
+            "configurable",
+            "health"
+        ],
+        "displayName": "Circle Watch review",
+        "enableMultiJS": false,
+        "messageKeys": [
+            "backgroundColor",
+            "backgroundBTColor",
+            "textColor",
+            "batteryColor"
+        ],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/Logo",
+                    "menuIcon": true,
+                    "name": "LOGO_IMAGE",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "basalt",
+            "chalk"
+        ],
+        "uuid": "25becbb7-c0bc-4180-82b6-b36f1bf894c7",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "0.5.0"
+}
